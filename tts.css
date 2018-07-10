@@ -22,7 +22,15 @@ body{
   z-index: 1;
 }
 
+.orangebg-2{
+  position: absolute;
+  top: 1930px;
+  left:0px;
+  z-index: 1;
+}
+
 /* Navigation */
+
 .float-left{
   float: left;
   padding-left: 20px;
@@ -156,4 +164,46 @@ input[type=submit]{
   position: absolute;
   left: 9%;
   margin-top: 4%;
+}
+
+/* Map styling */
+.map{
+  background-color: #F7F7F7;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  height: 700px;
+  margin-top: 40%;
+  box-shadow: 0 1px 1px 1px rgb(222, 222, 222);
+  border-radius: 7.2px;
+}
+
+.map img{
+  width: 600px;
+}
+
+.map p{
+  margin-left: 15%;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.tour-dates{
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+
+/* Van styling */
+
+.van {
+  margin-top: 47px;
+  margin-left: 550px;
+}
+
+.van img{
+  width: 600px;
 }
