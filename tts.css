@@ -67,6 +67,7 @@ body{
 .top-left-content h1,
 .top-left-content h2{
   margin-top: 0px;
+  color: #2B2B2B;
 }
 
 .top-left-content h1{
@@ -91,13 +92,13 @@ body{
 
 /* Styling first form */
 
-input[type=text],
-input[type=submit]{
+.top-left-content input[type=text],
+.top-left-content input[type=submit]{
   height: 25px;
   border-radius: 8px;
 }
 
-input[type=text]{
+.top-left-content input[type=text]{
   border: 1px solid transparent;
   border-top: none;
   border-bottom: 1px solid #DDD;
@@ -106,15 +107,15 @@ input[type=text]{
   padding-left: 5px;
 }
 
-.two-column{
+.top-left-content .two-column{
   width: 195px;
 }
 
-.one-column{
+.top-left-content .one-column{
   width: 400px;
 }
 
-input[type=submit]{
+.top-left-content input[type=submit]{
   border: none;
   width: 410px;
   background-color: #FFD9B8;
@@ -187,11 +188,21 @@ input[type=submit]{
   width: 600px;
 }
 
+.map h3{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 3%;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
 .map p{
   margin-left: 15%;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
+  color: #2B2B2B;
+  margin-top: 0px;
 }
 
 .tour-dates{
@@ -215,12 +226,11 @@ input[type=submit]{
 /* Tile intro */
 
 .tile-intro{
-  width: 913px;
+  width: 875px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
   color: white;
-  padding-left: 2%;
 }
 
 .tile-intro h3{
@@ -244,10 +254,12 @@ input[type=submit]{
 
 .tiles h4{
   margin-bottom: 0px;
+  color: #2B2B2B
 }
 
 .tiles p{
   margin-top: 5px;
+  color: #2B2B2B
 }
 
 .tiles .cta{
@@ -267,4 +279,57 @@ input[type=submit]{
 
 .tile img{
   height: 112px;
+}
+
+/* Bottom form text*/
+
+.bottom-form{
+  width: 875px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40%;
+  margin-bottom: 5%;
+}
+
+.bottom-form h3{
+  font-size: 42px;
+  margin-bottom: 0px;
+  color: #2B2B2B;
+}
+
+.bottom-form p{
+  margin-top: 5px;
+  color: #2B2B2B;
+}
+
+/* Styling bottom form */
+
+.bottom-form input[type=text],
+.bottom-form input[type=submit]{
+  height: 30px;
+  border-radius: 8px;
+}
+
+.bottom-form input[type=text]{
+  border: 1px solid transparent;
+  border-top: none;
+  border-bottom: 1px solid #DDD;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+
+.bottom-form .two-column{
+  width: 420px;
+}
+
+.bottom-form .one-column{
+  width: 850px;
+}
+
+.bottom-form input[type=submit]{
+  border: none;
+  width: 860px;
+  background-color: #FFB16F;
+  font-weight: bold;
 }
