@@ -212,6 +212,13 @@ body{
   font-size: 18px;
 }
 
+.tour-dates .cta{
+  background-color: #FFB16F;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+}
+
 /* Van styling */
 
 .van {
@@ -333,3 +340,13 @@ body{
   background-color: #FFB16F;
   font-weight: bold;
 }
+
+/* Reponsive styling */
+@media only screen and (min-width: 1800px){
+    .orangebg,
+    .orangebg-2{
+      width: 100%;
+    }
+ }
+
+/* 1300px is the next one
