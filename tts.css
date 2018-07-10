@@ -16,7 +16,7 @@ body{
 /* Backgrounds */
 
 .orangebg{
-  position: fixed;
+  position: absolute;
   top: 280px;
   left: 0px;
   z-index: 1;
@@ -108,4 +108,52 @@ input[type=submit]{
   width: 410px;
   background-color: #FFD9B8;
   font-weight: bold;
+}
+
+/* Video styling */
+
+.middle-left-content{
+  width: 600px;
+  margin-top: 6%;
+  margin-left: 5%;
+}
+
+#circle1,
+#circle2{
+  background-color: white;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: block;
+}
+
+#circle1{
+  margin-top: 20%;
+}
+
+/* Video text styling */
+
+.middle-right-content{
+  width: 500px;
+  position: absolute;
+  left: 55%;
+  color: white;
+}
+
+.middle-right-content h3{
+  font-size: 40px;
+  line-height: 1em;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.middle-right-content p{
+  font-size: 16px;
+}
+
+.middle-left-content img{
+  width: 450px;
+  position: absolute;
+  left: 9%;
+  margin-top: 4%;
 }
