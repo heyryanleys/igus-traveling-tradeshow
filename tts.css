@@ -33,14 +33,17 @@ body{
   position: absolute;
   left: 0;
   z-index: 1;
+  width: 100%;
 }
 
 .orangebg{
   top: 280px;
+  width: 100%;
 }
 
 .orangebg-2{
   top: 1930px;
+  width: 100%;
 }
 
 /* Navigation */
@@ -102,8 +105,8 @@ body{
 
 /* Styling forms */
 
-.top-left-content input[type=text],
-.top-left-content input[type=submit]{
+input[type=text],
+input[type=submit]{
   border-radius: 8px;
 }
 
@@ -338,13 +341,3 @@ input[type=submit]{
   margin-top: 5px;
   color: #2B2B2B;
 }
-
-/* Reponsive styling */
-@media only screen and (min-width: 1800px){
-    .orangebg,
-    .orangebg-2{
-      width: 100%;
-    }
- }
-
-/* 1300px is the next one
