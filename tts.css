@@ -322,6 +322,10 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 480px) {
+  body{
+    overflow-x: hidden;
+  }
+  
   /* Background */
 
   .orangebg, .orangebg-2 {
@@ -528,6 +532,9 @@ input[type=submit] {
 
 @media only screen and (min-width:481px) and (max-width: 600px) {
   /* Background */
+  body{
+    overflow-x: hidden;
+  }
 
   .orangebg, .orangebg-2 {
     height: 280px;
@@ -542,7 +549,7 @@ input[type=submit] {
   }
 
   .container{
-    width: 480px;
+    width: 440px;
   }
 
   .nav{
@@ -561,6 +568,7 @@ input[type=submit] {
     z-index: 2;
     width: 360px;
     margin-left: 0%;
+    top: -20px
   }
 
   .top-right-content{
@@ -584,9 +592,22 @@ input[type=submit] {
     width: 355px;
   }
 
+  /* Second form */
+  .bottom-form .one-column {
+    width: 440px;
+  }
+
+  .bottom-form .two-column{
+    width: 440px;
+  }
+
+  .bottom-form input[type=submit] {
+    width: 450px;
+  }
+
   /* Video styling */
   .middle-left-content {
-    width: 480px;
+    width: 440px;
     margin-top: 13%;
     margin-left: auto;
     margin-right: auto;
@@ -621,7 +642,7 @@ input[type=submit] {
 
   /* Video text styling */
   .middle-right-content {
-    width: 480px;
+    width: 440px;
     left: 1%;
     position: relative;
     margin-left: auto;
@@ -668,6 +689,45 @@ input[type=submit] {
   .tour-dates .middle-column {
     width: 5%;
   }
+  /* Tile intro */
+.tile-intro {
+  width: 440px;
+  color: #2B2B2B;
+  margin-left: 2%;
+  margin-top: 0%;
+}
+
+/* Product tiles */
+.tiles {
+  width: 440px;
+  top: 20px
+}
+
+.tile {
+  background-color: #FFB16F;
+}
+
+.iglide, .drylin {
+  margin-top: 10px;
+}
+
+/* Bottom form */
+.bottom-form {
+width: 440px;
+margin-top: 670px;
+margin-bottom: 5%;
+}
+
+.bottom-form h3 {
+font-size: 30px;
+margin-bottom: 0px;
+color: #2B2B2B;
+}
+
+.bottom-form p {
+margin-top: 5px;
+color: #2B2B2B;
+}
 
 
 }
