@@ -525,3 +525,149 @@ input[type=submit] {
     color: #2B2B2B;
   }
 }
+
+@media only screen and (min-width:481px) and (max-width: 600px) {
+  /* Background */
+
+  .orangebg, .orangebg-2 {
+    height: 280px;
+  }
+
+  .orangebg {
+    top: 320px;
+  }
+
+  .orangebg-2 {
+    top: 1280px;
+  }
+
+  .container{
+    width: 480px;
+  }
+
+  .nav{
+    opacity: 0;
+  }
+
+  /* Intro section */
+  .top-right-content img {
+    content: url('https://ryanleys.com/igus-tests/tts/img/box_small.png');
+    width: 349px;
+    z-index: 1;
+  }
+
+  .top-left-content{
+    position: relative;
+    z-index: 2;
+    width: 360px;
+    margin-left: 0%;
+  }
+
+  .top-right-content{
+    top: 10px;
+  }
+
+  .top-left-content h1{
+    width: 344px;
+  }
+
+  /* First form */
+  .top-left-content .two-column {
+    width: 165px;
+  }
+
+  .top-left-content .one-column {
+    width: 345px;
+  }
+
+  .top-left-content input[type=submit] {
+    width: 355px;
+  }
+
+  /* Video styling */
+  .middle-left-content {
+    width: 480px;
+    margin-top: 13%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .middle-left-content img {
+    width: 375px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+  }
+
+  .middle-right-content .float-left {
+    float: none;
+  }
+
+  #circle1, #circle2 {
+    background-color: #ff7500;
+    width: 200px;
+    height: 200px;
+    padding-left: 20px;
+  }
+
+  #circle1 {
+    margin-top: 13%;
+  }
+
+  #circle2 {
+    margin-top: -1%;
+  }
+
+  /* Video text styling */
+  .middle-right-content {
+    width: 480px;
+    left: 1%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: #2B2B2B;
+    margin-top: 360px;
+  }
+  /* Van styling */
+  .van {
+    position: absolute;
+    margin-top: -590px;
+    margin-left: 150px;
+  }
+
+  .van img {
+    width: 300px;
+  }
+
+  /* Map styling */
+  .map {
+    width: 400px;
+    height: 470px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .map img {
+    width: 350px;
+  }
+
+  .map h3 {
+    font-size: 20px;
+  }
+
+  .map p {
+    margin-left: 21%;
+  }
+
+  .tour-dates {
+    font-size: 14px;
+  }
+
+  .tour-dates .middle-column {
+    width: 5%;
+  }
+
+
+}
