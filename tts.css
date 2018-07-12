@@ -735,6 +735,9 @@ h4 {
   .tile img {
     height: 90px;
   }
+  .tiles p {
+    font-size: 14px;
+}
 
   /* Second form */
   .bottom-form input[type=text], .bottom-form input[type=submit] {
