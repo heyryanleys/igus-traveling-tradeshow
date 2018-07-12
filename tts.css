@@ -458,7 +458,6 @@ input[type=submit] {
 
 @media only screen and (min-width: 376px) and (max-width: 495px) {
   body{
-    overflow-x: hidden;
     width: 480px;
   }
 
@@ -495,14 +494,7 @@ input[type=submit] {
   /* Intro section */
   .top-left-content {
     width: 344px;
-    position: relative;
-    z-index: 99;
     margin-left: 1%;
-  }
-
-  .top-right-content img {
-    z-index: 1;
-    overflow-x: hidden;
   }
 
   .top-right-content {
@@ -538,25 +530,14 @@ input[type=submit] {
   }
 
   #circle1, #circle2 {
-    background-color: #ff7500;
     width: 42vw;
     height: 42vw;
     padding-left: 5vw;
   }
 
-  #circle1 {
-    margin-top: 13%;
-  }
-
-  #circle2 {
-    margin-top: -1%;
-  }
-
   /* Video text styling */
   .middle-right-content {
     width: calc(100vw - 10vw);
-    position: relative;
-    color: #2B2B2B;
     margin-top: 79%;
   }
 
@@ -570,9 +551,6 @@ input[type=submit] {
     margin-left: 20vw;
   }
 
-  .van img {
-    width: 300px;
-  }
 
   /* Map styling */
   .map {
@@ -586,18 +564,6 @@ input[type=submit] {
     width: 350px;
   }
 
-  .map h3 {
-    font-size: 20px;
-  }
-
-  .map p {
-    margin-left: 21%;
-  }
-
-  .tour-dates {
-    font-size: 14px;
-  }
-
   .tour-dates .middle-column {
     width: 5%;
   }
@@ -605,7 +571,6 @@ input[type=submit] {
     /* Tile intro */
   .tile-intro {
     width: calc(100vw - 10vw);
-    color: #2B2B2B;
     margin-left: 2%;
     margin-top: 110%;
   }
@@ -618,29 +583,12 @@ input[type=submit] {
 
   .tile {
     width: calc(100vw - 60vw);
-    background-color: #FFB16F;
-  }
-
-  .iglide, .drylin {
-    margin-top: 10px;
   }
 
     /* Bottom form */
   .bottom-form {
     width: calc(100vw - 10vw);
-    margin-bottom: 5%;
     margin-left: 2%;
-  }
-
-  .bottom-form h3 {
-    font-size: 30px;
-    margin-bottom: 0px;
-    color: #2B2B2B;
-  }
-
-  .bottom-form p {
-    margin-top: 5px;
-    color: #2B2B2B;
   }
 }
 
@@ -739,12 +687,11 @@ input[type=submit] {
   .middle-right-content {
     width: 80vw;
     left: 1%;
-    position: relative;
     margin-left: auto;
     margin-right: auto;
-    color: #2B2B2B;
     margin-top: 65vw;
   }
+
   /* Van styling */
   .van {
     position: absolute;
@@ -789,10 +736,6 @@ input[type=submit] {
 }
 
 @media only screen and (min-width:769px) and (max-width:1299px) {
-  body{
-    overflow-x: hidden;
-  }
-
   .orangebg{
     height: 900px;
   }
@@ -808,16 +751,6 @@ input[type=submit] {
 
   .nav{
     margin-left: 55%;
-  }
-
-  .top-right-content img{
-    z-index: 1;
-    overflow-x: hidden;
-  }
-
-  .top-left-content{
-    z-index: 2;
-    position: relative;
   }
 
   .top-left-content h1{
@@ -979,20 +912,6 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 768px){
-  body{
-    overflow-x: hidden;
-  }
-
-  .top-right-content img{
-    z-index: 1;
-    overflow-x: hidden;
-  }
-
-  .top-left-content{
-    z-index: 2;
-    position: relative;
-  }
-
   .middle-left-content img{
     position: absolute;
     margin-top: 4%;
@@ -1061,5 +980,21 @@ input[type=submit] {
   .bottom-form br{
     display: block;
     margin: 0px 0;
+  }
+}
+
+@media only screen and (max-width: 1299px){
+  body{
+    overflow-x: hidden;
+  }
+
+  .top-right-content img{
+    z-index: 1;
+    overflow-x: hidden;
+  }
+
+  .top-left-content{
+    z-index: 2;
+    position: relative;
   }
 }
