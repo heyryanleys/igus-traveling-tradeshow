@@ -15,7 +15,6 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
 .float-left {
   float: left;
 }
@@ -27,11 +26,9 @@ body {
   z-index: 1;
   width: 100vw;
 }
-
 .orangebg {
   top: 280px;
 }
-
 .orangebg-2 {
   top: 1930px;
 }
@@ -40,7 +37,6 @@ body {
 .nav .float-left {
   padding-left: 20px;
 }
-
 .nav {
   height: 30px;
   color: #FF7500;
@@ -56,35 +52,29 @@ body {
   margin-top: 3%;
   margin-left: 5%;
 }
-
 .top-right-content {
   width: 800px;
   position: absolute;
   top: 60px;
   left: 40%;
 }
-
 h1, h2 {
   margin-top: 0;
   color: #2B2B2B;
 }
-
 h1 {
   font-size: 40px;
   line-height: 1em;
   margin-bottom: 8px;
 }
-
 h2 {
   font-weight: 400;
   font-size: 16px;
   margin-bottom: 10px;
 }
-
 .top-right-content img {
   width: 800px;
 }
-
 .top-left-content img {
   width: 50px;
 }
@@ -93,7 +83,6 @@ h2 {
 input[type=text], input[type=submit] {
   border-radius: 8px;
 }
-
 input[type=text] {
   border: 1px solid transparent;
   border-top: none;
@@ -102,7 +91,6 @@ input[type=text] {
   margin-bottom: 10px;
   padding-left: 5px;
 }
-
 input[type=submit] {
   border: none;
   font-weight: bold;
@@ -112,15 +100,12 @@ input[type=submit] {
 .top-left-content input[type=text], .top-left-content input[type=submit] {
   height: 25px;
 }
-
 .top-left-content .two-column {
   width: 195px;
 }
-
 .top-left-content .one-column {
   width: 400px;
 }
-
 .top-left-content input[type=submit] {
   width: 410px;
   background-color: #FFD9B8;
@@ -130,15 +115,12 @@ input[type=submit] {
 .bottom-form input[type=text], .bottom-form input[type=submit] {
   height: 30px;
 }
-
 .bottom-form .two-column {
   width: 420px;
 }
-
 .bottom-form .one-column {
   width: 850px;
 }
-
 .bottom-form input[type=submit] {
   width: 860px;
   background-color: #FFB16F
@@ -148,9 +130,8 @@ input[type=submit] {
 .middle-left-content {
   width: 600px;
   margin-top: 6%;
-  margin-left: 5%;
+  margin-left: 7%;
 }
-
 #circle1, #circle2 {
   background-color: white;
   width: 250px;
@@ -158,7 +139,6 @@ input[type=submit] {
   border-radius: 50%;
   display: block;
 }
-
 #circle1 {
   margin-top: 20%;
 }
@@ -170,18 +150,15 @@ input[type=submit] {
   left: 55%;
   color: white;
 }
-
 .middle-right-content h3 {
   font-size: 40px;
   line-height: 1em;
   margin-bottom: 8px;
   font-weight: bold;
 }
-
 .middle-right-content p {
   font-size: 16px;
 }
-
 .middle-left-content img {
   width: 450px;
   position: absolute;
@@ -199,11 +176,9 @@ input[type=submit] {
   box-shadow: 0 1px 1px 1px rgb(222, 222, 222);
   border-radius: 7.2px;
 }
-
 .map img {
   width: 600px;
 }
-
 .map h3 {
   text-align: center;
   font-size: 30px;
@@ -211,7 +186,6 @@ input[type=submit] {
   padding-bottom: 0;
   margin-bottom: 0;
 }
-
 .map p {
   margin-left: 15%;
   font-size: 18px;
@@ -220,16 +194,13 @@ input[type=submit] {
   color: #2B2B2B;
   margin-top: 0;
 }
-
 .tour-dates {
   text-align: left;
   font-size: 18px;
 }
-
 .tour-dates .middle-column {
   width: 15%;
 }
-
 .tour-dates .cta {
   background-color: #FFB16F;
   color: white;
@@ -243,14 +214,11 @@ input[type=submit] {
   margin-left: 0;
   opacity: 0;
   transition: all 1s ease-out;
-
 }
-
-.fadeIn{
+.fadeIn {
   margin-left: 550px;
   opacity: 1;
 }
-
 .van img {
   width: 600px;
 }
@@ -261,12 +229,10 @@ input[type=submit] {
   position: relative;
   color: white;
 }
-
 .tile-intro h3 {
   font-size: 30px;
   margin-bottom: 0;
 }
-
 .tile-intro p {
   margin-top: 5px;
 }
@@ -277,22 +243,18 @@ input[type=submit] {
   width: 913px;
   margin-top: 3%;
 }
-
 h4 {
   margin-bottom: 0;
   color: #2B2B2B
 }
-
 .tiles p {
   margin-top: 5px;
   color: #2B2B2B
 }
-
 .tiles .cta {
   color: #FF7500;
   font-weight: bold;
 }
-
 .tile {
   width: 190px;
   height: 300px;
@@ -302,7 +264,6 @@ h4 {
   padding-left: 10px;
   padding-right: 10px;
 }
-
 .tile img {
   height: 112px;
 }
@@ -313,26 +274,23 @@ h4 {
   margin-top: 40%;
   margin-bottom: 5%;
 }
-
 .bottom-form h3 {
   font-size: 42px;
   margin-bottom: 0;
   color: #2B2B2B;
 }
-
 .bottom-form p {
   margin-top: 5px;
   color: #2B2B2B;
 }
 
 /*Cursor on links*/
-.nav,
-.cta{
+.nav, .cta {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 375px){
-  body{
+@media only screen and (max-width: 375px) {
+  body {
     width: 100%;
     max-width: 375px;
     margin-left: 0;
@@ -361,14 +319,11 @@ h4 {
     margin-left: 8px;
   }
 
-
   /* Styling forms */
   /* First form */
-  .top-left-content .one-column,
-  .top-left-content .two-column {
+  .top-left-content .one-column, .top-left-content .two-column {
     width: calc(100% - 20px);
   }
-
   .top-left-content input[type=submit] {
     width: 100%;
   }
@@ -377,10 +332,9 @@ h4 {
   .bottom-form .one-column {
     width: calc(100% - 20px);
   }
-  .bottom-form .two-column{
+  .bottom-form .two-column {
     width: calc(100% - 20px);
   }
-
   .bottom-form input[type=submit] {
     width: 100%;
   }
@@ -390,12 +344,10 @@ h4 {
     width: calc(100% - 10px);
     margin-left: 8px;
   }
-
   .middle-left-content img {
     width: calc(100vw - 75px);
     left: 9%;
   }
-
   #circle1, #circle2 {
     width: calc(100vw - 240px);
     height: calc(100vw - 220px);
@@ -409,8 +361,7 @@ h4 {
   }
 
   /* Van styling */
-  .van,
-  .fadeIn {
+  .van, .fadeIn {
     margin-top: -560px;
     margin-left: 40px;
   }
@@ -421,16 +372,14 @@ h4 {
     height: 430px;
     margin-top: 45%;
   }
-
   .map img {
     width: 280px;
   }
-
   .tour-dates .middle-column {
     width: 0;
   }
 
-    /* Tile intro */
+  /* Tile intro */
   .tile-intro {
     width: 340px;
     margin-left: 8px;
@@ -442,22 +391,18 @@ h4 {
     width: 355px;
     margin-left: 6px;
   }
-
   .tile {
     width: 145px;
     height: 220px;
   }
-
-  .tile img{
+  .tile img {
     height: 80px;
   }
-
-  .tile p{
+  .tile p {
     font-size: 12px;
     margin-bottom: 0;
   }
-
-  h4{
+  h4 {
     font-size: 14px;
   }
 
@@ -469,7 +414,7 @@ h4 {
 }
 
 @media only screen and (min-width: 376px) and (max-width: 495px) {
-  body{
+  body {
     width: 480px;
   }
 
@@ -477,7 +422,6 @@ h4 {
   .orangebg, .orangebg-2 {
     width: 480px;
   }
-
   .orangebg-2 {
     top: 1460px;
   }
@@ -491,7 +435,6 @@ h4 {
   .nav .float-left {
     padding-left: 20px;
   }
-
   .nav {
     height: 30px;
     color: #FF7500;
@@ -507,22 +450,16 @@ h4 {
     width: 344px;
     margin-left: 1%;
   }
-
   .top-right-content {
     z-index: 1;
   }
 
   /* Styling forms */
   /* First form */
-  .top-left-content .one-column,
-  .top-left-content .two-column,
-  .bottom-form .one-column,
-  .bottom-form .two-column {
+  .top-left-content .one-column, .top-left-content .two-column, .bottom-form .one-column, .bottom-form .two-column {
     width: calc(100vw - 50px);
   }
-
-  .top-left-content input[type=submit],
-  .bottom-form input[type=submit] {
+  .top-left-content input[type=submit], .bottom-form input[type=submit] {
     width: calc(100vw - 40px);
   }
 
@@ -532,14 +469,12 @@ h4 {
     margin-left: auto;
     margin-right: auto;
   }
-
   .middle-left-content img {
     width: 80vw;
     position: absolute;
     left: 7vw;
     margin-top: 4%;
   }
-
   #circle1, #circle2 {
     width: 42vw;
     height: 42vw;
@@ -551,18 +486,15 @@ h4 {
     width: calc(100vw - 10vw);
     margin-top: 79%;
   }
-
-  .middle-right-content h3{
+  .middle-right-content h3 {
     font-size: 34px;
   }
 
   /* Van styling */
-  .van,
-  .fadeIn {
+  .van, .fadeIn {
     margin-top: -610px;
     margin-left: 20vw;
   }
-
 
   /* Map styling */
   .map {
@@ -571,16 +503,14 @@ h4 {
     margin-top: 35%;
     margin-left: 1vw;
   }
-
   .map img {
     width: 350px;
   }
-
   .tour-dates .middle-column {
     width: 5%;
   }
 
-    /* Tile intro */
+  /* Tile intro */
   .tile-intro {
     width: calc(100vw - 10vw);
     margin-left: 2%;
@@ -592,12 +522,11 @@ h4 {
     width: 480px;
     margin-left: 0;
   }
-
   .tile {
     width: calc(100vw - 60vw);
   }
 
-    /* Bottom form */
+  /* Bottom form */
   .bottom-form {
     width: calc(100vw - 10vw);
     margin-left: 2%;
@@ -609,21 +538,17 @@ h4 {
   .orangebg, .orangebg-2 {
     height: 280px;
   }
-
   .orangebg {
     top: 320px;
   }
-
   .orangebg-2 {
     top: 1280px;
   }
-
-  .container{
+  .container {
     width: 100vw;
     overflow-x: hidden;
   }
-
-  .nav{
+  .nav {
     opacity: 0;
   }
 
@@ -631,18 +556,15 @@ h4 {
   .top-right-content img {
     width: 700px;
   }
-
-  .top-left-content{
+  .top-left-content {
     width: 360px;
     margin-left: 2vw;
     top: -20px
   }
-
-  .top-right-content{
+  .top-right-content {
     top: 10px;
   }
-
-  h1{
+  h1 {
     width: 344px;
   }
 
@@ -651,11 +573,9 @@ h4 {
   .top-left-content .two-column {
     width: 165px;
   }
-
   .top-left-content .one-column {
     width: 345px;
   }
-
   .top-left-content input[type=submit] {
     width: 355px;
   }
@@ -664,11 +584,9 @@ h4 {
   .bottom-form .one-column {
     width: 80vw;
   }
-
-  .bottom-form .two-column{
+  .bottom-form .two-column {
     width: 80vw;
   }
-
   .bottom-form input[type=submit] {
     width: calc(80vw + 10px)
   }
@@ -680,16 +598,13 @@ h4 {
     margin-left: auto;
     margin-right: auto;
   }
-
   .middle-left-content img {
     width: 70vw;
     margin-left: 6vw;
   }
-
   .middle-right-content .float-left {
     float: none;
   }
-
   #circle1, #circle2 {
     width: 35vw;
     height: 35vw;
@@ -705,8 +620,7 @@ h4 {
   }
 
   /* Van styling */
-  .van,
-  .fadeIn {
+  .van, .fadeIn {
     position: absolute;
     margin-top: -590px;
     margin-left: 150px;
@@ -718,11 +632,9 @@ h4 {
     height: 470px;
     margin-top: 150px;
   }
-
   .map img {
     width: 350px;
   }
-
   .tour-dates .middle-column {
     width: 5%;
   }
@@ -743,107 +655,84 @@ h4 {
 
   /* Bottom form */
   .bottom-form {
-  width: 80vw;
-  margin-top: 670px;
+    width: 80vw;
+    margin-top: 670px;
   }
 }
 
 @media only screen and (min-width:769px) and (max-width:1299px) {
-  .orangebg{
+  .orangebg {
     height: 900px;
   }
-
-  .orangebg-2{
+  .orangebg-2 {
     top: 1790px;
     height: 620px;
   }
-
-  .container{
+  .container {
     width: 769px;
   }
-
-  .nav{
+  .nav {
     margin-left: 55%;
   }
-
-  h1{
+  h1 {
     width: 340px;
   }
-
-  .middle-left-content{
+  .middle-left-content {
     width: 400px;
   }
-
-  .middle-left-content img{
+  .middle-left-content img {
     width: 320px;
     left: 6%;
     margin-top: 11%;
   }
-
-  .middle-right-content{
+  .middle-right-content {
     width: 350px;
   }
-
-  .middle-right-content h3{
+  .middle-right-content h3 {
     font-size: 30px;
   }
-
-  .map{
+  .map {
     margin-top: 55%;
   }
-
-  #circle1, #circle2{
+  #circle1, #circle2 {
     width: 150px;
     height: 150px;
   }
-
-  #circle1{
+  #circle1 {
     margin-top: 35%;
   }
-
-  #circle2{
+  #circle2 {
     margin-top: 15%;
   }
-
-  .van{
+  .van {
     margin-left: 0;
   }
-
-  .fadeIn{
+  .fadeIn {
     margin-left: 300px;
   }
-
-  .van img{
+  .van img {
     width: 430px;
   }
-
-  .tile-intro,
-  .bottom-form{
+  .tile-intro, .bottom-form {
     width: 750px;
   }
-
-  .bottom-form{
+  .bottom-form {
     margin-top: 55%;
   }
-
-  .bottom-form h3{
+  .bottom-form h3 {
     font-size: 36px;
   }
-
-  .tiles{
+  .tiles {
     width: 800px;
   }
-
-  h4{
+  h4 {
     margin-top: 2px;
   }
-
-  .tile{
+  .tile {
     width: 155px;
     height: 270px;
   }
-
-  .tile img{
+  .tile img {
     height: 90px;
   }
 
@@ -851,171 +740,138 @@ h4 {
   .bottom-form input[type=text], .bottom-form input[type=submit] {
     height: 30px;
   }
-
   .bottom-form .two-column {
     width: 750px;
   }
-
   .bottom-form .one-column {
     width: 750px;
   }
-
   .bottom-form input[type=submit] {
     width: 760px;
     background-color: #FFB16F
   }
-
 }
 
-@media only screen and (max-width: 495px){
+@media only screen and (max-width: 495px) {
   .orangebg, .orangebg-2 {
     height: 400px;
   }
-
   .orangebg {
     top: 370px;
   }
-
   .top-right-content img {
     width: 570px;
     margin-top: -30px;
     display: none;
   }
-
-  .top-left-content br{
+  .top-left-content br {
     display: block;
     margin: 0 0;
   }
-
   .middle-left-content {
     margin-top: 20%;
   }
-
   .middle-right-content .float-left {
     float: none;
   }
-
-  .middle-right-content{
+  .middle-right-content {
     left: 2%;
   }
-
-  h4{
+  h4 {
     margin-top: 5px;
   }
-
   .bottom-form {
     margin-top: 135%;
   }
 }
 
-@media only screen and (max-width: 768px){
-  .middle-left-content img{
+@media only screen and (max-width: 768px) {
+  .middle-left-content img {
     position: absolute;
     margin-top: 4%;
   }
-
-  #circle1, #circle2{
+  #circle1, #circle2 {
     background-color: #ff7500;
   }
-
-  #circle1{
+  #circle1 {
     margin-top: 13%;
   }
-
-  #circle2{
+  #circle2 {
     margin-top: -1%;
   }
-
-  .middle-right-content{
+  .middle-right-content {
     position: relative;
     color: #2B2B2B
   }
-
-  .van{
+  .van {
     opacity: 1;
     transition: none;
   }
-
   .van img {
     width: 300px;
   }
-
   .map h3 {
     font-size: 20px;
   }
-
   .map p {
     margin-left: 21%;
   }
-
   .tour-dates {
     font-size: 14px;
   }
-
-  .tile-intro{
+  .tile-intro {
     color: #2B2B2B;
   }
-
-  .tile{
+  .tile {
     background-color: #FFB16F;
   }
-
   .iglide, .drylin {
     margin-top: 10px;
   }
-
-  .bottom-form{
+  .bottom-form {
     margin-bottom: 5%;
   }
-
-  .bottom-form h3{
+  .bottom-form h3 {
     font-size: 30px;
     margin-bottom: 0;
     color: #2B2B2B;
   }
-
   .bottom-form p {
     margin-top: 5px;
     color: #2B2B2B;
   }
-
-  .bottom-form br{
+  .bottom-form br {
     display: block;
     margin: 0 0;
   }
 }
 
-@media only screen and (max-width: 1299px){
-  body{
+@media only screen and (max-width: 1299px) {
+  body {
     overflow-x: hidden;
   }
-
-  .top-right-content img{
+  .top-right-content img {
     z-index: 1;
     overflow-x: hidden;
   }
-
-  .top-left-content{
+  .top-left-content {
     z-index: 2;
     position: relative;
   }
 }
 
 /* Background styling */
-
-@media only screen and (min-width: 600px) and (max-width: 650px){
+@media only screen and (min-width: 600px) and (max-width: 650px) {
   .orangebg-2 {
     top: 1310px !important;
   }
 }
-
-@media only screen and (min-width: 651px) and (max-width: 705px){
+@media only screen and (min-width: 651px) and (max-width: 705px) {
   .orangebg-2 {
     top: 1350px !important;
   }
 }
-
-@media only screen and (min-width: 706px) and (max-width: 768px){
+@media only screen and (min-width: 706px) and (max-width: 768px) {
   .orangebg-2 {
     top: 1380px !important;
   }
