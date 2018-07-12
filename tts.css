@@ -852,15 +852,15 @@ input[type=submit] {
 
   /* Second form */
   .bottom-form .one-column {
-    width: 440px;
+    width: 80vw;
   }
 
   .bottom-form .two-column{
-    width: 440px;
+    width: 80vw;
   }
 
   .bottom-form input[type=submit] {
-    width: 450px;
+    width: calc(80vw + 10px)
   }
 
   /* Video styling */
@@ -938,7 +938,134 @@ input[type=submit] {
   }
 }
 
+@media only screen and (min-width:769px) and (max-width:1299px) {
+  body{
+    overflow-x: hidden;
+  }
 
+  .orangebg{
+    height: 900px;
+  }
+
+  .orangebg-2{
+    top: 1790px;
+    height: 620px;
+  }
+
+  .container{
+    width: 769px;
+  }
+
+  .nav{
+    margin-left: 55%;
+  }
+
+  .top-right-content img{
+    z-index: 1;
+    overflow-x: hidden;
+  }
+
+  .top-left-content{
+    z-index: 2;
+    position: relative;
+  }
+
+  .top-left-content h1{
+    width: 340px;
+  }
+
+  .middle-left-content{
+    width: 400px;
+  }
+
+  .middle-left-content img{
+    width: 320px;
+    left: 6%;
+    margin-top: 11%;
+  }
+
+  .middle-right-content{
+    width: 350px;
+  }
+
+  .middle-right-content h3{
+    font-size: 30px;
+  }
+
+  .map{
+    margin-top: 55%;
+  }
+
+  #circle1, #circle2{
+    width: 150px;
+    height: 150px;
+  }
+
+  #circle1{
+    margin-top: 35%;
+  }
+
+  #circle2{
+    margin-top: 15%;
+  }
+
+  .van{
+    margin-left: 300px;
+  }
+
+  .van img{
+    width: 430px;
+  }
+
+  .tile-intro,
+  .bottom-form{
+    width: 750px;
+  }
+
+  .bottom-form{
+    margin-top: 55%;
+  }
+
+  .bottom-form h3{
+    font-size: 36px;
+  }
+
+  .tiles{
+    width: 800px;
+  }
+
+  .tiles h4{
+    margin-top: 2px;
+  }
+
+  .tile{
+    width: 155px;
+    height: 270px;
+  }
+
+  .tile img{
+    height: 90px;
+  }
+
+  /* Second form */
+  .bottom-form input[type=text], .bottom-form input[type=submit] {
+    height: 30px;
+  }
+
+  .bottom-form .two-column {
+    width: 750px;
+  }
+
+  .bottom-form .one-column {
+    width: 750px;
+  }
+
+  .bottom-form input[type=submit] {
+    width: 760px;
+    background-color: #FFB16F
+  }
+
+}
 
 /* Background styling */
 
