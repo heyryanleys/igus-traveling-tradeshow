@@ -29,3 +29,13 @@ $( document ).ready(function() {
   sr.reveal('.tile', 200);
   sr.reveal('.map', 200);
 });
+
+$(document).ready(function() {
+  var controller = new ScrollMagic.Controller();
+  var ourScene = new ScrollMagic.Scene({
+      triggerElement: '.trigger'
+    })
+    .setClassToggle('.van', 'fadeIn') // add class to van
+    .reverse(false)
+    .addTo(controller);
+});

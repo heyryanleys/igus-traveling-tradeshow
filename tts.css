@@ -242,7 +242,15 @@ input[type=submit] {
 /* Van styling */
 .van {
   margin-top: 47px;
+  margin-left: 0px;
+  opacity: 0;
+  transition: all 1s ease-out;
+
+}
+
+.van.fadeIn{
   margin-left: 550px;
+  opacity: 1;
 }
 
 .van img {
@@ -403,7 +411,8 @@ input[type=submit] {
   }
 
   /* Van styling */
-  .van {
+  .van,
+  .van.fadeIn {
     margin-top: -560px;
     margin-left: 40px;
   }
@@ -551,7 +560,8 @@ input[type=submit] {
   }
 
   /* Van styling */
-  .van {
+  .van,
+  .van.fadeIn {
     margin-top: -610px;
     margin-left: 20vw;
   }
@@ -698,7 +708,8 @@ input[type=submit] {
   }
 
   /* Van styling */
-  .van {
+  .van,
+  .van.fadeIn {
     position: absolute;
     margin-top: -590px;
     margin-left: 150px;
@@ -798,6 +809,10 @@ input[type=submit] {
   }
 
   .van{
+    margin-left: 0px;
+  }
+
+  .van.fadeIn{
     margin-left: 300px;
   }
 
@@ -917,6 +932,11 @@ input[type=submit] {
   .middle-right-content{
     position: relative;
     color: #2B2B2B
+  }
+
+  .van{
+    opacity: 1;
+    transition: none;
   }
 
   .van img {
