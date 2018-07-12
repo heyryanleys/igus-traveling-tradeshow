@@ -25,17 +25,15 @@ body {
   position: absolute;
   left: 0;
   z-index: 1;
-  width: 100%;
+  width: 100vw;
 }
 
 .orangebg {
   top: 280px;
-  width: 100%;
 }
 
 .orangebg-2 {
   top: 1930px;
-  width: 100%;
 }
 
 /* Navigation */
@@ -412,10 +410,6 @@ input[type=submit] {
   }
 }
 
-@media only screen and (max-width: 480px){
-
-}
-
 @media only screen and (max-width: 375px){
   body{
     width: 100%;
@@ -423,23 +417,16 @@ input[type=submit] {
     margin-left: 0px;
   }
 
+  /* Background */
+  .orangebg-2 {
+    top: 1540px;
+  }
+
   /* Popular styles */
   .container {
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
-  }
-
-  /* Background */
-  .orangebg, .orangebg-2 {
-    height: 400px;
-    width: 100%;
-  }
-  .orangebg {
-    top: 370px;
-  }
-  .orangebg-2 {
-    top: 1540px;
   }
 
   /* Navigation */
@@ -453,19 +440,10 @@ input[type=submit] {
     margin-left: 8px;
   }
 
-  .top-right-content img {
-    width: 570px;
-    margin-top: -30px;
-    display: none;
-  }
-
   /* Styling forms */
   /* First form */
+  .top-left-content .one-column,
   .top-left-content .two-column {
-    width: calc(100% - 20px);
-  }
-
-  .top-left-content .one-column {
     width: calc(100% - 20px);
   }
 
@@ -590,12 +568,7 @@ input[type=submit] {
 
   /* Background */
   .orangebg, .orangebg-2 {
-    height: 400px;
     width: 480px;
-  }
-
-  .orangebg {
-    top: 370px;
   }
 
   .orangebg-2 {
@@ -624,18 +597,6 @@ input[type=submit] {
   }
 
   /* Intro section */
-  .top-right-content img {
-    width: 570px;
-    margin-top: -30px;
-    z-index: 1;
-    overflow-x: hidden;
-    display: none;
-  }
-
-  .top-right-content {
-    z-index: 1;
-  }
-
   .top-left-content {
     width: 344px;
     position: relative;
@@ -643,12 +604,21 @@ input[type=submit] {
     margin-left: 1%;
   }
 
+  .top-right-content img {
+    z-index: 1;
+    overflow-x: hidden;
+  }
+
+  .top-right-content {
+    z-index: 1;
+  }
+
   /* Styling forms */
   /* First form */
-  .bottom-form .one-column,
-  .bottom-form .two-column,
   .top-left-content .one-column,
-  .top-left-content .two-column {
+  .top-left-content .two-column,
+  .bottom-form .one-column,
+  .bottom-form .two-column {
     width: calc(100vw - 50px);
   }
 
@@ -1084,5 +1054,21 @@ input[type=submit] {
 @media only screen and (min-width: 706px) and (max-width: 768px){
   .orangebg-2 {
     top: 1380px !important;
+  }
+}
+
+@media only screen and (max-width: 495px){
+  .orangebg, .orangebg-2 {
+    height: 400px;
+  }
+
+  .orangebg {
+    top: 370px;
+  }
+
+  .top-right-content img {
+    width: 570px;
+    margin-top: -30px;
+    display: none;
   }
 }
