@@ -47,7 +47,6 @@ body {
   font-size: 16px;
   margin-top: 20px;
   font-weight: bold;
-  align-items: right;
   margin-left: 65%;
 }
 
@@ -65,18 +64,18 @@ body {
   left: 40%;
 }
 
-.top-left-content h1, .top-left-content h2 {
-  margin-top: 0px;
+h1, h2 {
+  margin-top: 0;
   color: #2B2B2B;
 }
 
-.top-left-content h1 {
+h1 {
   font-size: 40px;
   line-height: 1em;
   margin-bottom: 8px;
 }
 
-.top-left-content h2 {
+h2 {
   font-weight: 400;
   font-size: 16px;
   margin-bottom: 10px;
@@ -158,7 +157,6 @@ input[type=submit] {
   height: 250px;
   border-radius: 50%;
   display: block;
-  padding-left: 20px;
 }
 
 #circle1 {
@@ -210,8 +208,8 @@ input[type=submit] {
   text-align: center;
   font-size: 30px;
   padding-top: 3%;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .map p {
@@ -220,7 +218,7 @@ input[type=submit] {
   font-weight: bold;
   margin-bottom: 10px;
   color: #2B2B2B;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .tour-dates {
@@ -242,13 +240,13 @@ input[type=submit] {
 /* Van styling */
 .van {
   margin-top: 47px;
-  margin-left: 0px;
+  margin-left: 0;
   opacity: 0;
   transition: all 1s ease-out;
 
 }
 
-.van.fadeIn{
+.fadeIn{
   margin-left: 550px;
   opacity: 1;
 }
@@ -266,7 +264,7 @@ input[type=submit] {
 
 .tile-intro h3 {
   font-size: 30px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .tile-intro p {
@@ -280,8 +278,8 @@ input[type=submit] {
   margin-top: 3%;
 }
 
-.tiles h4 {
-  margin-bottom: 0px;
+h4 {
+  margin-bottom: 0;
   color: #2B2B2B
 }
 
@@ -318,7 +316,7 @@ input[type=submit] {
 
 .bottom-form h3 {
   font-size: 42px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   color: #2B2B2B;
 }
 
@@ -337,7 +335,7 @@ input[type=submit] {
   body{
     width: 100%;
     max-width: 375px;
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   /* Background */
@@ -348,8 +346,8 @@ input[type=submit] {
   /* Popular styles */
   .container {
     width: 100%;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   /* Navigation */
@@ -412,7 +410,7 @@ input[type=submit] {
 
   /* Van styling */
   .van,
-  .van.fadeIn {
+  .fadeIn {
     margin-top: -560px;
     margin-left: 40px;
   }
@@ -429,7 +427,7 @@ input[type=submit] {
   }
 
   .tour-dates .middle-column {
-    width: 0%;
+    width: 0;
   }
 
     /* Tile intro */
@@ -456,10 +454,10 @@ input[type=submit] {
 
   .tile p{
     font-size: 12px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
-  .tile h4{
+  h4{
     font-size: 14px;
   }
 
@@ -500,7 +498,6 @@ input[type=submit] {
     font-size: 16px;
     margin-top: 20px;
     font-weight: bold;
-    align-items: right;
     margin-left: 20%;
     opacity: 0;
   }
@@ -561,7 +558,7 @@ input[type=submit] {
 
   /* Van styling */
   .van,
-  .van.fadeIn {
+  .fadeIn {
     margin-top: -610px;
     margin-left: 20vw;
   }
@@ -593,7 +590,7 @@ input[type=submit] {
   /* Product tiles */
   .tiles {
     width: 480px;
-    margin-left: 0%;
+    margin-left: 0;
   }
 
   .tile {
@@ -645,7 +642,7 @@ input[type=submit] {
     top: 10px;
   }
 
-  .top-left-content h1{
+  h1{
     width: 344px;
   }
 
@@ -709,7 +706,7 @@ input[type=submit] {
 
   /* Van styling */
   .van,
-  .van.fadeIn {
+  .fadeIn {
     position: absolute;
     margin-top: -590px;
     margin-left: 150px;
@@ -735,7 +732,7 @@ input[type=submit] {
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0%;
+    margin-top: 0;
   }
 
   /* Product tiles */
@@ -769,7 +766,7 @@ input[type=submit] {
     margin-left: 55%;
   }
 
-  .top-left-content h1{
+  h1{
     width: 340px;
   }
 
@@ -809,10 +806,10 @@ input[type=submit] {
   }
 
   .van{
-    margin-left: 0px;
+    margin-left: 0;
   }
 
-  .van.fadeIn{
+  .fadeIn{
     margin-left: 300px;
   }
 
@@ -837,7 +834,7 @@ input[type=submit] {
     width: 800px;
   }
 
-  .tiles h4{
+  h4{
     margin-top: 2px;
   }
 
@@ -887,7 +884,7 @@ input[type=submit] {
 
   .top-left-content br{
     display: block;
-    margin: 0px 0;
+    margin: 0 0;
   }
 
   .middle-left-content {
@@ -902,7 +899,7 @@ input[type=submit] {
     left: 2%;
   }
 
-  .tile h4{
+  h4{
     margin-top: 5px;
   }
 
@@ -973,7 +970,7 @@ input[type=submit] {
 
   .bottom-form h3{
     font-size: 30px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     color: #2B2B2B;
   }
 
@@ -984,7 +981,7 @@ input[type=submit] {
 
   .bottom-form br{
     display: block;
-    margin: 0px 0;
+    margin: 0 0;
   }
 }
 
