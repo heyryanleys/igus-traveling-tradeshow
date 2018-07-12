@@ -319,97 +319,6 @@ input[type=submit] {
   color: #2B2B2B;
 }
 
-@media only screen and (max-width: 768px){
-  body{
-    overflow-x: hidden;
-  }
-
-  .top-right-content img{
-    z-index: 1;
-    overflow-x: hidden;
-  }
-
-  .top-left-content{
-    z-index: 2;
-    position: relative;
-  }
-
-  .bottom-form br{
-    display: block;
-    margin: 0px 0;
-  }
-
-  .middle-left-content img{
-    position: absolute;
-    margin-top: 4%;
-  }
-
-  #circle1, #circle2{
-    background-color: #ff7500;
-  }
-
-  #circle1{
-    margin-top: 13%;
-  }
-
-  #circle2{
-    margin-top: -1%;
-  }
-
-  .middle-right-content{
-    position: relative;
-    color: #2B2B2B
-  }
-
-  .van img {
-    width: 300px;
-  }
-
-  .map{
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .map h3 {
-    font-size: 20px;
-  }
-
-  .map p {
-    margin-left: 21%;
-  }
-
-  .tour-dates {
-    font-size: 14px;
-  }
-
-  .tile-intro{
-    color: #2B2B2B;
-  }
-
-  .tile{
-    background-color: #FFB16F;
-  }
-
-  .iglide, .drylin {
-    margin-top: 10px;
-  }
-
-  .bottom-form{
-    margin-bottom: 5%;
-  }
-
-  .bottom-form h3{
-    font-size: 30px;
-    margin-bottom: 0px;
-    color: #2B2B2B;
-  }
-
-  .bottom-form p {
-  margin-top: 5px;
-  color: #2B2B2B;
-  }
-}
-
 @media only screen and (max-width: 375px){
   body{
     width: 100%;
@@ -440,6 +349,7 @@ input[type=submit] {
     margin-left: 8px;
   }
 
+
   /* Styling forms */
   /* First form */
   .top-left-content .one-column,
@@ -449,11 +359,6 @@ input[type=submit] {
 
   .top-left-content input[type=submit] {
     width: 100%;
-  }
-
-  .top-left-content br{
-    display: block;
-    margin: 0px 0;
   }
 
   /* Second form */
@@ -471,17 +376,12 @@ input[type=submit] {
   /* Video styling */
   .middle-left-content {
     width: calc(100% - 10px);
-    margin-top: 20%;
     margin-left: 8px;
   }
 
   .middle-left-content img {
     width: calc(100vw - 75px);
     left: 9%;
-  }
-
-  .middle-right-content .float-left {
-    float: none;
   }
 
   #circle1, #circle2 {
@@ -493,7 +393,6 @@ input[type=submit] {
   /* Video text styling */
   .middle-right-content {
     width: 330px;
-    left: 2%;
     margin-top: 86%;
   }
 
@@ -547,14 +446,11 @@ input[type=submit] {
 
   .tile h4{
     font-size: 14px;
-    margin-top: 5px;
   }
-
 
     /* Bottom form */
   .bottom-form {
     width: 320px;
-    margin-top: 135%;
     margin-left: 8px;
   }
 
@@ -627,15 +523,9 @@ input[type=submit] {
     width: calc(100vw - 40px);
   }
 
-  .top-left-content br{
-    display: block;
-    margin: 0px 0;
-  }
-
   /* Video styling */
   .middle-left-content {
     width: 480px;
-    margin-top: 20%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -645,10 +535,6 @@ input[type=submit] {
     position: absolute;
     left: 7vw;
     margin-top: 4%;
-  }
-
-  .middle-right-content .float-left {
-    float: none;
   }
 
   #circle1, #circle2 {
@@ -669,7 +555,6 @@ input[type=submit] {
   /* Video text styling */
   .middle-right-content {
     width: calc(100vw - 10vw);
-    left: 2%;
     position: relative;
     color: #2B2B2B;
     margin-top: 79%;
@@ -731,10 +616,6 @@ input[type=submit] {
     margin-left: 0%;
   }
 
-  .tiles h4{
-    margin-top: 5px;
-  }
-
   .tile {
     width: calc(100vw - 60vw);
     background-color: #FFB16F;
@@ -747,7 +628,6 @@ input[type=submit] {
     /* Bottom form */
   .bottom-form {
     width: calc(100vw - 10vw);
-    margin-top: 135%;
     margin-bottom: 5%;
     margin-left: 2%;
   }
@@ -1070,5 +950,116 @@ input[type=submit] {
     width: 570px;
     margin-top: -30px;
     display: none;
+  }
+
+  .top-left-content br{
+    display: block;
+    margin: 0px 0;
+  }
+
+  .middle-left-content {
+    margin-top: 20%;
+  }
+
+  .middle-right-content .float-left {
+    float: none;
+  }
+
+  .middle-right-content{
+    left: 2%;
+  }
+
+  .tile h4{
+    margin-top: 5px;
+  }
+
+  .bottom-form {
+    margin-top: 135%;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  body{
+    overflow-x: hidden;
+  }
+
+  .top-right-content img{
+    z-index: 1;
+    overflow-x: hidden;
+  }
+
+  .top-left-content{
+    z-index: 2;
+    position: relative;
+  }
+
+  .middle-left-content img{
+    position: absolute;
+    margin-top: 4%;
+  }
+
+  #circle1, #circle2{
+    background-color: #ff7500;
+  }
+
+  #circle1{
+    margin-top: 13%;
+  }
+
+  #circle2{
+    margin-top: -1%;
+  }
+
+  .middle-right-content{
+    position: relative;
+    color: #2B2B2B
+  }
+
+  .van img {
+    width: 300px;
+  }
+
+  .map h3 {
+    font-size: 20px;
+  }
+
+  .map p {
+    margin-left: 21%;
+  }
+
+  .tour-dates {
+    font-size: 14px;
+  }
+
+  .tile-intro{
+    color: #2B2B2B;
+  }
+
+  .tile{
+    background-color: #FFB16F;
+  }
+
+  .iglide, .drylin {
+    margin-top: 10px;
+  }
+
+  .bottom-form{
+    margin-bottom: 5%;
+  }
+
+  .bottom-form h3{
+    font-size: 30px;
+    margin-bottom: 0px;
+    color: #2B2B2B;
+  }
+
+  .bottom-form p {
+    margin-top: 5px;
+    color: #2B2B2B;
+  }
+
+  .bottom-form br{
+    display: block;
+    margin: 0px 0;
   }
 }
