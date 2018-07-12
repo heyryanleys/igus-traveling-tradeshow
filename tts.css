@@ -319,6 +319,12 @@ input[type=submit] {
   color: #2B2B2B;
 }
 
+/*Cursor on links*/
+.nav,
+.cta{
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 375px){
   body{
     width: 100%;
@@ -448,12 +454,11 @@ input[type=submit] {
     font-size: 14px;
   }
 
-    /* Bottom form */
+  /* Bottom form */
   .bottom-form {
     width: 320px;
     margin-left: 8px;
   }
-
 }
 
 @media only screen and (min-width: 376px) and (max-width: 495px) {
@@ -850,26 +855,6 @@ input[type=submit] {
 
 }
 
-/* Background styling */
-
-@media only screen and (min-width: 600px) and (max-width: 650px){
-  .orangebg-2 {
-    top: 1310px !important;
-  }
-}
-
-@media only screen and (min-width: 651px) and (max-width: 705px){
-  .orangebg-2 {
-    top: 1350px !important;
-  }
-}
-
-@media only screen and (min-width: 706px) and (max-width: 768px){
-  .orangebg-2 {
-    top: 1380px !important;
-  }
-}
-
 @media only screen and (max-width: 495px){
   .orangebg, .orangebg-2 {
     height: 400px;
@@ -996,5 +981,25 @@ input[type=submit] {
   .top-left-content{
     z-index: 2;
     position: relative;
+  }
+}
+
+/* Background styling */
+
+@media only screen and (min-width: 600px) and (max-width: 650px){
+  .orangebg-2 {
+    top: 1310px !important;
+  }
+}
+
+@media only screen and (min-width: 651px) and (max-width: 705px){
+  .orangebg-2 {
+    top: 1350px !important;
+  }
+}
+
+@media only screen and (min-width: 706px) and (max-width: 768px){
+  .orangebg-2 {
+    top: 1380px !important;
   }
 }
