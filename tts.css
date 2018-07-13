@@ -748,12 +748,6 @@ h4 {
   .tile-intro, .bottom-form {
     width: 750px;
   }
-  .bottom-form {
-    margin-top: 55%;
-  }
-  .bottom-form h3 {
-    font-size: 36px;
-  }
   .tiles {
     width: 800px;
   }
@@ -769,25 +763,21 @@ h4 {
   }
   .tiles p {
     font-size: 14px;
-}
-
-  /* Second form */
-  .bottom-form input[type=text], .bottom-form input[type=submit] {
-    height: 30px;
+  }
+  .bottom-form {
+    margin-top: 55%;
+  }
+  .bottom-form h3 {
+    font-size: 36px;
   }
   .bottom-form .two-column {
-    width: 750px;
+      width: 360px;
   }
   .bottom-form .one-column {
-    width: 750px;
+    width: 732px;
   }
-  .bottom-form input[type=submit] {
-    width: 760px;
-    background-color: #FFB16F
-  }
-  .bottom-form br {
-    display: block;
-    margin: 0 0;
+  .bottom-form input[type="submit"] {
+    width: 742px;
   }
 }
 

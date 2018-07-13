@@ -1,4 +1,15 @@
-$( document ).ready(function() {
+$(document).ready(function(){
+  $(function () {
+    $('.top-left-content .two-column').hover(function(){
+      $('.form1, .form1-br').fadeIn()
+    });
+    $('.bottom-form .two-column').hover(function(){
+      $('.form2, .form2-br').fadeIn()
+    })
+  });
+})
+
+$(document).ready(function() {
   $(".about").click(function() {
       $('html,body').animate({
           scrollTop: $(".middle-right-content").offset().top},
@@ -28,15 +39,6 @@ $( document ).ready(function() {
   sr.reveal('.video', 200);
   sr.reveal('.tile', 200);
   sr.reveal('.map', 200);
-
-  $(function () {
-    $('.top-left-content .two-column').click(function () {
-      $('.form1, .form1-br').fadeIn()
-    });
-    $('.bottom-form .two-column').click(function(){
-      $('.form2, .form2-br').fadeIn()
-    })
-  });
 });
 
 $(document).ready(function() {
