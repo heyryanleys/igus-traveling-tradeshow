@@ -95,22 +95,18 @@ input[type=submit] {
   border: none;
   font-weight: bold;
 }
-
 .form-text{
   font-size: 13px;
   color: #2B2B2B;
 }
-
 .opt-in{
   margin-top: 0;
   margin-bottom: 10px;
 }
-
 .opt-in,
 .opt-in-br{
   display: none;
 }
-
 .submit:hover{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -369,7 +365,6 @@ h4 {
     height: 120px;
     margin-left: 10px;
   }
-
   #circle1{
     margin-top: 20%;
   }
