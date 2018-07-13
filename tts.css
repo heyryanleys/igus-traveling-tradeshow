@@ -111,6 +111,10 @@ input[type=submit] {
   display: none;
 }
 
+.submit:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 /* First form */
 .top-left-content input[type=text], .top-left-content input[type=submit] {
   height: 25px;
@@ -300,7 +304,7 @@ h4 {
 }
 
 /*Cursor on links*/
-.nav, .cta {
+.nav, .cta, .submit{
   cursor: pointer;
 }
 
@@ -780,6 +784,10 @@ h4 {
   .bottom-form input[type=submit] {
     width: 760px;
     background-color: #FFB16F
+  }
+  .bottom-form br {
+    display: block;
+    margin: 0 0;
   }
 }
 
