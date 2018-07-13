@@ -96,6 +96,21 @@ input[type=submit] {
   font-weight: bold;
 }
 
+.form-text{
+  font-size: 13px;
+  color: #2B2B2B;
+}
+
+.opt-in{
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.opt-in,
+.opt-in-br{
+  display: none;
+}
+
 /* First form */
 .top-left-content input[type=text], .top-left-content input[type=submit] {
   height: 25px;
