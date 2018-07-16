@@ -685,7 +685,7 @@ h4 {
   }
 }
 
-@media only screen and (min-width:769px) and (max-width:1299px) {
+@media only screen and (min-width:769px) and (max-width:950px) {
   .orangebg {
     height: 900px;
   }
@@ -775,6 +775,108 @@ h4 {
     width: 742px;
   }
 }
+
+@media only screen and (min-width: 951px) and (max-width: 1299px){
+  .middle-right-content{
+    width: 400px;
+    top: 19%;
+  }
+
+
+
+  .orangebg {
+    height: 800px;
+  }
+  .orangebg-2 {
+    top: 1790px;
+    height: 620px;
+  }
+  .container {
+    width: 950px;
+  }
+  .nav {
+    margin-left: 55%;
+  }
+  h1 {
+    width: 340px;
+  }
+  .middle-left-content {
+    width: 600px;
+    margin-top: 0;
+  }
+  .middle-left-content img {
+    width: 390px;
+    left: 7.5%;
+    margin-top: 11%;
+  }
+  .middle-right-content {
+    width: 400px;
+    top: 19%;
+  }
+  .middle-right-content h3 {
+    font-size: 30px;
+  }
+  .map {
+    margin-top: 55%;
+  }
+  #circle1, #circle2 {
+    width: 200px;
+    height: 200px;
+  }
+  #circle1 {
+    margin-top: 25%;
+    margin-left: -5%;
+  }
+  #circle2 {
+    margin-top: 15%;
+    margin-left: 10%;
+  }
+  .van {
+    margin-left: 0;
+  }
+  .fadeIn {
+    margin-left: 300px;
+  }
+  .van img {
+    width: 430px;
+  }
+  .tile-intro, .bottom-form {
+    width: 750px;
+  }
+  .tiles {
+    width: 800px;
+  }
+  h4 {
+    margin-top: 2px;
+  }
+  .tile {
+    width: 155px;
+    height: 270px;
+  }
+  .tile img {
+    height: 90px;
+  }
+  .tiles p {
+    font-size: 14px;
+  }
+  .bottom-form {
+    margin-top: 55%;
+  }
+  .bottom-form h3 {
+    font-size: 36px;
+  }
+  .bottom-form .two-column {
+      width: 360px;
+  }
+  .bottom-form .one-column {
+    width: 732px;
+  }
+  .bottom-form input[type="submit"] {
+    width: 742px;
+  }
+}
+
+
 
 @media only screen and (max-width: 495px) {
   .orangebg, .orangebg-2 {
