@@ -35,6 +35,11 @@ $(document).ready(function() {
           scrollTop: $(".bottom-form").offset().top},
           'slow');
   });
+  $(".req-stop-mobile").click(function() {
+      $('html,body').animate({
+          scrollTop: $(".bottom-form").offset().top},
+          'slow');
+  });
   window.sr = ScrollReveal({ duration: 1000 });
   sr.reveal('.video', 200);
   sr.reveal('.tile', 200);
