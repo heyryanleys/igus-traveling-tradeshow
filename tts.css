@@ -690,14 +690,14 @@ h4 {
     height: 900px;
   }
   .orangebg-2 {
-    top: 1790px;
+    top: 1800px;
     height: 620px;
   }
   .container {
     width: 769px;
   }
   .nav {
-    margin-left: 55%;
+    margin-left: 50%;
   }
   h1 {
     width: 340px;
@@ -777,13 +777,9 @@ h4 {
 }
 
 @media only screen and (min-width: 951px) and (max-width: 1299px){
-  .middle-right-content{
-    width: 400px;
-    top: 19%;
+  .top-left-content{
+    margin-left: 1%;
   }
-
-
-
   .orangebg {
     height: 800px;
   }
@@ -810,14 +806,15 @@ h4 {
     margin-top: 11%;
   }
   .middle-right-content {
-    width: 400px;
-    top: 19%;
+    width: 360px;
+    top: 20%;
+    left: 60%;
   }
   .middle-right-content h3 {
     font-size: 30px;
   }
   .map {
-    margin-top: 55%;
+    margin-top: 45%;
   }
   #circle1, #circle2 {
     width: 200px;
@@ -835,7 +832,7 @@ h4 {
     margin-left: 0;
   }
   .fadeIn {
-    margin-left: 300px;
+    margin-left: 400px;
   }
   .van img {
     width: 430px;
@@ -860,7 +857,7 @@ h4 {
     font-size: 14px;
   }
   .bottom-form {
-    margin-top: 55%;
+    margin-top: 45%;
   }
   .bottom-form h3 {
     font-size: 36px;
