@@ -110,7 +110,8 @@ input[type=submit] {
 .opt-in-br{
   display: none;
 }
-.submit:hover{
+.submit:hover,
+.tiles div:hover{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -177,9 +178,9 @@ input[type=submit] {
 .middle-right-content p {
   font-size: 16px;
 }
-.middle-left-content img {
+.wistia_responsive_padding {
   width: 450px;
-  position: absolute;
+  position: absolute !important;
   left: 9%;
   margin-top: 4%;
 }
@@ -273,6 +274,7 @@ h4 {
   color: #FF7500;
   font-weight: bold;
 }
+
 .tile {
   width: 190px;
   height: 300px;
@@ -373,7 +375,7 @@ h4 {
     width: 345px;
     margin-left: 6%;
   }
-  .middle-left-content img {
+  .wistia_responsive_padding {
     width: 300px;
     left: 9%;
   }
@@ -507,7 +509,7 @@ h4 {
     margin-left: auto;
     margin-right: auto;
   }
-  .middle-left-content img {
+  .wistia_responsive_padding {
     width: 80vw;
     position: absolute;
     left: 7vw;
@@ -640,7 +642,7 @@ h4 {
     margin-left: auto;
     margin-right: auto;
   }
-  .middle-left-content img {
+  .wistia_responsive_padding {
     width: 70vw;
     margin-left: 6vw;
   }
@@ -735,7 +737,7 @@ h4 {
   .middle-left-content {
     width: 400px;
   }
-  .middle-left-content img {
+  .wistia_responsive_padding {
     width: 320px;
     left: 6%;
     margin-top: 11%;
@@ -833,10 +835,10 @@ h4 {
     width: 600px;
     margin-top: 0;
   }
-  .middle-left-content img {
-    width: 390px;
-    left: 7.5%;
-    margin-top: 11%;
+  .wistia_responsive_padding {
+    width: 390px !important;
+    left: 7.5% !important;
+    margin-top: 11% !important;
   }
   .middle-right-content {
     width: 360px;
@@ -943,7 +945,7 @@ h4 {
   .nav{
     display: none;
   }
-  .middle-left-content img {
+  .wistia_responsive_padding {
     position: absolute;
     margin-top: 4%;
   }

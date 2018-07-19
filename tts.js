@@ -41,7 +41,7 @@ $(document).ready(function() {
           'slow');
   });
   window.sr = ScrollReveal({ duration: 1000 });
-  sr.reveal('.video', 200);
+  sr.reveal('.wistia_responsive_padding', 200);
   sr.reveal('.tile', 200);
   sr.reveal('.map', 200);
 });
