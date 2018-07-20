@@ -24,7 +24,7 @@ body {
   position: absolute;
   left: 0;
   z-index: 1;
-  width: 100vw;
+  width: 100%;
 }
 .orangebg {
   top: 280px;
@@ -259,7 +259,7 @@ input[type=submit] {
 /* Product tiles */
 .tiles {
   position: relative;
-  width: 913px;
+  width: 914px;
   margin-top: 3%;
 }
 h4 {
