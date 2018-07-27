@@ -97,6 +97,7 @@ input[type=text] {
 input[type=submit] {
   border: none;
   font-weight: bold;
+  -webkit-appearance: none;
 }
 .form-text{
   font-size: 13px;
@@ -321,7 +322,7 @@ h4 {
     height: 320px;
   }
   .orangebg-2 {
-    top: 1020px;
+    top: 1050px;
     height: 350px;
   }
 
@@ -354,20 +355,28 @@ h4 {
   }
   .top-left-content .one-column, .top-left-content .two-column {
     width: calc(100% - 20px);
+    min-width: 345px;
   }
   .top-left-content input[type=submit] {
     width: calc(100% - 10px);
+    min-width: 345px;
   }
 
   /* Second form */
-  .bottom-form .one-column {
-    width: calc(100% - 20px);
-  }
+  .bottom-form .one-column,
   .bottom-form .two-column {
-    width: calc(100% - 20px);
+    width: calc(100vw - 40px);
+    min-width: 345px;
   }
+
+  .bottom-form,
   .bottom-form input[type=submit] {
-    width: 100%;
+    width: calc(100vw - 30px);
+    min-width: 345px;
+  }
+
+  .bottom-form {
+    margin-left: 8px;
   }
 
   /* Video styling */
@@ -393,7 +402,8 @@ h4 {
 
   /* Video text styling */
   .middle-right-content {
-    width: 330px;
+    width: calc(100vw - 20px);
+    min-width: 345px;
     margin-top: 86%;
   }
 
@@ -408,7 +418,7 @@ h4 {
     width: 340px;
     height: 430px;
     margin-top: 45%;
-    margin-left: 5%;
+    margin-left:calc(100vw - 95.3vw);
   }
   .map img {
     width: 280px;
@@ -420,14 +430,16 @@ h4 {
   /* Tile intro */
   .tile-intro {
     width: 340px;
+    min-width: 345px;
     margin-left: 8px;
     margin-top: 135%;
   }
 
   /* Product tiles */
   .tiles {
-    width: 355px;
-    margin-left: 6px;
+    width: calc(100vw - 30px);
+    min-width: 345px;
+    margin-left: calc(100vw - 96.2vw);
   }
   .tile {
     width: 145px;
@@ -442,12 +454,6 @@ h4 {
   }
   h4 {
     font-size: 14px;
-  }
-
-  /* Bottom form */
-  .bottom-form {
-    width: 320px;
-    margin-left: 8px;
   }
 }
 
