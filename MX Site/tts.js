@@ -54,3 +54,33 @@ $(document).ready(function() {
     .reverse(false)
     .addTo(controller);
 });
+
+$(document).ready(function() {
+  var controller = new ScrollMagic.Controller();
+  var ourScene = new ScrollMagic.Scene({
+      triggerElement: '.middle-right-content'
+    })
+    .setClassToggle('.map', 'mapFadeIn') // add class to van
+    .reverse(false)
+    .addTo(controller);
+});
+
+$(document).ready(function() {
+  var controller = new ScrollMagic.Controller();
+  var ourScene = new ScrollMagic.Scene({
+      triggerElement: '.top-right-content'
+    })
+    .setClassToggle('.top-right-content', 'topRightFadeIn') // add class to van
+    .reverse(false)
+    .addTo(controller);
+});
+
+$(document).ready(function() {
+  var controller = new ScrollMagic.Controller();
+  var ourScene = new ScrollMagic.Scene({
+      triggerElement: '.tile-intro'
+    })
+    .setClassToggle('.tile', 'tileFadeIn') // add class to van
+    .reverse(false)
+    .addTo(controller);
+});

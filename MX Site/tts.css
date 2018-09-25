@@ -56,7 +56,14 @@ body {
   width: 800px;
   position: absolute;
   top: 60px;
+  left: 50%;
+  opacity: 0;
+}
+.topRightFadeIn{
   left: 40%;
+  opacity: 1;
+  transition: all 1s ease-out;
+  transition-property: left, opacity
 }
 h1, h2 {
   margin-top: 0;
@@ -195,8 +202,16 @@ input[type=submit] {
   position: relative;
   height: 700px;
   margin-top: 40%;
+  top: 50px;
+  opacity: 0;
   box-shadow: 0 1px 1px 1px rgb(222, 222, 222);
   border-radius: 7.2px;
+  transition: all 0.5s ease-out;
+  transition-property: opacity, top,
+}
+.mapFadeIn{
+  opacity: 1;
+  top: 0px;
 }
 .map img {
   width: 600px;
@@ -236,6 +251,7 @@ input[type=submit] {
   margin-left: 0;
   opacity: 0;
   transition: all 1s ease-out;
+  transition-property: margin-left, opacity
 }
 .fadeIn {
   margin-left: 550px;
@@ -286,9 +302,31 @@ h4 {
   border-radius: 3%;
   padding-left: 10px;
   padding-right: 10px;
+  top: 50px;
+  opacity: 0;
+  position: relative;
 }
 .tile img {
   height: 100px;
+}
+
+.chainflex{
+  transition-delay: 0.1s !important;
+}
+
+.drylin{
+  transition-delay: 0.2s !important;
+}
+
+.iglide{
+  transition-delay: 0.3s !important;
+}
+
+.tileFadeIn{
+  opacity: 1;
+  top: 0;
+  transition: all 1s ease-out;
+  transition-property: top, opacity;
 }
 
 /* Bottom form text*/
