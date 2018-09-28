@@ -30,7 +30,7 @@ body {
   top: 280px;
 }
 .orangebg-2 {
-  top: 1930px;
+  top: 1940px;
 }
 
 /* Navigation */
@@ -178,6 +178,7 @@ input[type=submit] {
   position: absolute;
   left: 55%;
   color: white;
+  margin-top: -40px;
 }
 .middle-right-content h3 {
   font-size: 40px;
@@ -206,7 +207,7 @@ input[type=submit] {
   opacity: 0;
   box-shadow: 0 1px 1px 1px rgb(222, 222, 222);
   border-radius: 7.2px;
-  transition: all 0.5s ease-out;
+  transition: all 1s ease-out;
   transition-property: opacity, top,
 }
 .mapFadeIn{
@@ -248,17 +249,17 @@ input[type=submit] {
 /* Van styling */
 .van {
   margin-top: 47px;
-  margin-left: 0;
+  margin-left: 800px;
   opacity: 0;
   transition: all 1s ease-out;
   transition-property: margin-left, opacity
 }
 .fadeIn {
-  margin-left: 550px;
+  margin-left: 300px;
   opacity: 1;
 }
 .van img {
-  width: 600px;
+  width: 1300px;
 }
 
 /* Tile intro */
@@ -332,7 +333,7 @@ h4 {
 /* Bottom form text*/
 .bottom-form {
   width: 875px;
-  margin-top: 40%;
+  margin-top: 35%;
   margin-bottom: 5%;
 }
 .bottom-form h3 {
@@ -362,7 +363,7 @@ h4 {
     height: 320px;
   }
   .orangebg-2 {
-    top: 1050px;
+    top: 1150px;
     height: 350px;
   }
 
@@ -511,7 +512,7 @@ h4 {
     top: 210px;
   }
   .orangebg-2 {
-    top: 1070px;
+    top: 1130px;
   }
 
   /* Popular styles */
@@ -635,7 +636,7 @@ h4 {
     top: 280px;
   }
   .orangebg-2 {
-    top: 1240px;
+    top: 1300px;
   }
   .container {
     width: 100vw;
@@ -764,14 +765,14 @@ h4 {
     height: 900px;
   }
   .orangebg-2 {
-    top: 1800px;
+    top: 1820px;
     height: 620px;
   }
   .container {
     width: 769px;
   }
   .nav {
-    margin-left: 50%;
+    margin-left: 45%;
   }
   .middle-left-content {
     width: 400px;
@@ -788,7 +789,7 @@ h4 {
     font-size: 30px;
   }
   .map {
-    margin-top: 55%;
+    margin-top: 60%;
   }
   #circle1, #circle2 {
     background-color: white;
@@ -806,13 +807,13 @@ h4 {
     margin-left: 10%;
   }
   .van {
-    margin-left: 0;
+    margin-left: 350px;
   }
   .fadeIn {
-    margin-left: 300px;
+    margin-left: 50px;
   }
   .van img {
-    width: 430px;
+    width: 1130px;
   }
   .tile-intro, .bottom-form {
     width: 750px;
@@ -858,7 +859,7 @@ h4 {
     height: 800px;
   }
   .orangebg-2 {
-    top: 1790px;
+    top: 1840px;
     height: 620px;
   }
   .container {
@@ -878,14 +879,14 @@ h4 {
   }
   .middle-right-content {
     width: 360px;
-    top: 20%;
+    top: 18%;
     left: 60%;
   }
   .middle-right-content h3 {
     font-size: 30px;
   }
   .map {
-    margin-top: 45%;
+    margin-top: 50%;
   }
   #circle1, #circle2 {
     width: 200px;
@@ -900,13 +901,13 @@ h4 {
     margin-left: 10%;
   }
   .van {
-    margin-left: 0;
+    margin-left: 500px;
   }
   .fadeIn {
-    margin-left: 400px;
+    margin-left: 150px;
   }
   .van img {
-    width: 430px;
+    width: 1130px;
   }
   .tile-intro, .bottom-form {
     width: 750px;
@@ -928,7 +929,7 @@ h4 {
     font-size: 14px;
   }
   .bottom-form {
-    margin-top: 45%;
+    margin-top: 42%;
   }
   .bottom-form h3 {
     font-size: 36px;
@@ -998,6 +999,7 @@ h4 {
   }
   .van img {
     width: 300px;
+    content:url("img/mx_van_noshadow.png");
   }
   .map h3 {
     font-size: 20px;
@@ -1054,11 +1056,11 @@ h4 {
 }
 @media only screen and (min-width: 651px) and (max-width: 705px) {
   .orangebg-2 {
-    top: 1410px !important;
+    top: 1320px !important;
   }
 }
 @media only screen and (min-width: 706px) and (max-width: 768px) {
   .orangebg-2 {
-    top: 1380px !important;
+    top: 1350px !important;
   }
 }

@@ -58,7 +58,7 @@ $(document).ready(function() {
 $(document).ready(function() {
   var controller = new ScrollMagic.Controller();
   var ourScene = new ScrollMagic.Scene({
-      triggerElement: '.middle-right-content'
+      triggerElement: '#circle1'
     })
     .setClassToggle('.map', 'mapFadeIn') // add class to van
     .reverse(false)
